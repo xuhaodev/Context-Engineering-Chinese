@@ -45,6 +45,24 @@ You are an experienced {{specific_expert_role}} with extensive knowledge of {{fi
 - Perspective: {{any_particular_viewpoint_you_want}}
 
 Please provide your expert guidance, including relevant examples, best practices, and any frameworks or approaches that would be helpful.
+
+# 专家咨询：{{field_of_expertise}}
+
+## 专家简介
+您是一位经验丰富的{{specific_expert_role}}，在{{field_of_expertise}}方面拥有广泛的知识。您的背景包括{{relevant_experience}}，并且您对{{specific_specialization}}特别了解。
+
+## 我的问题/请求
+{{your_specific_question_or_request}}
+
+## 补充背景
+{{any_relevant_background_information}}
+
+## 我期望的内容
+- 详细程度：{{how_detailed_you_want_the_response}}
+- 重点领域：{{specific_aspects_to_focus_on}}
+- 视角：{{any_particular_viewpoint_you_want}}
+
+请提供您的专家指导，包括相关示例、最佳实践以及任何有用的框架或方法。
 ```
 
 ### 如何自定义
@@ -79,6 +97,24 @@ Our current system is a monolithic application built with Django. We're experien
 - Perspective: Practical approach that prioritizes business continuity
 
 Please provide your expert guidance, including relevant examples, best practices, and any frameworks or approaches that would be helpful.
+
+# 专家咨询：软件架构
+
+## 专家简介
+您是一位经验丰富的软件架构师，对分布式系统有广泛的了解。您的背景包括设计高可扩展性的云应用程序，并且您对微服务架构和系统弹性特别了解。
+
+## 我的问题/请求
+我需要重新设计我们的电子商务平台，以处理当前流量的10倍。您会推荐哪种架构？
+
+## 补充背景
+我们当前的系统是使用Django构建的单体应用程序。我们在高峰时段遇到性能问题，部署也变得越来越困难。我们有一个由12名开发人员组成的团队，他们的经验水平各不相同。
+
+## 我期望的内容
+- 详细程度：全面，并包含实施方面的考虑
+- 重点领域：可扩展性、可维护性和过渡策略
+- 视角：优先考虑业务连续性的实用方法
+
+请提供您的专家指导，包括相关示例、最佳实践以及任何有用的框架或方法。
 ```
 
 #### 示例 2：营养指导
@@ -100,6 +136,24 @@ I'm currently running about 20 miles per week and will be following a 16-week tr
 - Perspective: Evidence-based but practical for a busy lifestyle
 
 Please provide your expert guidance, including relevant examples, best practices, and any frameworks or approaches that would be helpful.
+
+# 专家咨询：营养科学
+
+## 专家简介
+您是一位经验丰富的注册营养师，在运动营养方面拥有广泛的知识。您的背景包括与耐力运动员合作，并且您对营养时机和恢复策略特别了解。
+
+## 我的问题/请求
+我应该如何调整我的饮食来支持我的第一次马拉松训练？
+
+## 补充背景
+我目前每周跑步约20英里，并将遵循一个为期16周的训练计划，每周最高里程达到40英里。我35岁，是素食主义者，在长跑中有时会感到精力不足。
+
+## 我期望的内容
+- 详细程度：我可以实施的具体建议
+- 重点领域：跑步前/后的营养、素食蛋白质来源和补水
+- 视角：基于证据但对繁忙生活方式实用的方法
+
+请提供您的专家指导，包括相关示例、最佳实践以及任何有用的框架或方法。
 ```
 
 ### 成功秘诀
@@ -132,6 +186,24 @@ You are a leading {{technical_role}} with deep technical expertise in {{technica
 - Assumptions: {{technical_knowledge_you_already_have}}
 
 Please provide a comprehensive technical explanation with examples, edge cases, and best practices. Feel free to use technical terminology appropriate for someone familiar with this field.
+
+# 专家技术深入探讨：{{technical_field}}
+
+## 专家简介
+您是{{technical_role}}领域的顶尖专家，在{{technical_field}}方面拥有深厚的技术专长。您拥有{{specific_technologies}}的实践经验，并理解{{underlying_principles}}的理论基础。
+
+## 技术问题
+{{specific_technical_question}}
+
+## 技术背景
+{{relevant_technical_details}}
+
+## 响应参数
+- 技术深度：高度详细，包括底层机制
+- 包括：酌情提供代码示例、技术图表或公式
+- 假设：{{technical_knowledge_you_already_have}}
+
+请提供全面的技术解释，包括示例、边界情况和最佳实践。请随意使用适合该领域专业人士的技术术语。
 ```
 
 #### 快速专家意见
@@ -149,6 +221,19 @@ You are a {{expert_type}} with specific expertise in {{specialty_area}}.
 {{minimal_background_in_1-2_sentences}}
 
 Please provide your professional opinion in a concise, straightforward manner. Focus on the most important 2-3 points I should know.
+
+# 快速专家意见：{{topic}}
+
+## 专家背景
+您是{{expert_type}}，在{{specialty_area}}领域具有特定专长。
+
+## 快速问题
+{{concise_question}}
+
+## 简要背景
+{{minimal_background_in_1-2_sentences}}
+
+请以简洁、直接的方式提供您的专业意见。请重点关注我应该知道的最重要的2-3个点。
 ```
 
 ### 相关模板
@@ -190,6 +275,27 @@ As a specialist with deep expertise in {{specific_domain}}, you have:
 - Supporting elements: {{requested_examples_references_data}}
 
 Please provide technically accurate, current, and precise information that reflects specialized knowledge in this field.
+
+# 专业知识：{{specific_domain}}
+
+## 知识背景
+我需要关于{{broader_field}}领域内{{precise_topic}}的具体信息。这些信息将用于{{your_purpose}}。
+
+## 专家知识简介
+作为在{{specific_domain}}方面拥有深厚专业知识的专家，您具备：
+- 关于{{relevant_theories_or_frameworks}}的正式知识
+- 关于{{relevant_applications}}的实践经验
+- 熟悉{{cutting_edge_areas}}的最新发展
+
+## 信息请求
+{{specific_questions_or_information_needed}}
+
+## 深度和格式
+- 技术水平：{{technical_depth_required}}
+- 结构：{{preferred_information_structure}}
+- 支持元素：{{requested_examples_references_data}}
+
+请提供反映该领域专业知识的技术上准确、最新且精确的信息。
 ```
 
 ### 如何自定义
@@ -232,6 +338,30 @@ As a specialist with deep expertise in transformer neural networks, you have:
 - Supporting elements: Mathematical notation, pseudocode examples, and computational complexity analysis
 
 Please provide technically accurate, current, and precise information that reflects specialized knowledge in this field.
+
+# 专业知识：Transformer 神经网络
+
+## 知识背景
+我需要深度学习领域中注意力机制的特定信息。这些信息将用于实现用于文档分类的自定义 NLP 模型。
+
+## 专家知识档案
+作为在 Transformer 神经网络方面具有深厚专业知识的专家，您拥有：
+- 自注意力架构和数学基础的正式知识
+- 实施各种注意力机制的实践经验
+- 熟悉高效 Transformer 变体的最新发展
+
+## 信息请求
+1. 多头注意力和单头注意力之间的主要区别是什么？
+2. 缩放点积注意力机制在数学上是如何工作的？
+3. 不同注意力实现之间的计算效率权衡是什么？
+4. 如何为文档级分类任务优化注意力机制？
+
+## 深度和格式
+- 技术水平：具有数学背景的 ML 从业者
+- 结构：概念解释，然后是实际实施考虑
+- 支持元素：数学符号、伪代码示例和计算复杂性分析
+
+请提供技术上准确、最新且精确的信息，反映该领域的专业知识。
 ```
 
 #### 示例 2：历史研究信息
@@ -259,6 +389,30 @@ As a specialist with deep expertise in medieval trade systems, you have:
 - Supporting elements: Specific examples, historical anecdotes, and period-accurate details
 
 Please provide technically accurate, current, and precise information that reflects specialized knowledge in this field.
+
+# 专业知识：中世纪贸易路线
+
+## 知识背景
+我需要中世纪经济史领域内汉萨同盟贸易做法的特定信息。这些信息将用于一部以 14 世纪北欧为背景的历史小说。
+
+## 专家知识档案
+作为在中世纪贸易体系方面具有深厚专业知识的专家，您拥有：
+- 中世纪经济结构和汉萨同盟组织的正式知识
+- 分析历史贸易记录和考古证据的实践经验
+- 熟悉中世纪贸易路线研究的最新发展
+
+## 信息请求
+1. 汉萨商人在 14 世纪交易的主要商品是什么？
+2. 汉萨商人与地方统治者之间的贸易协议是如何构建的？
+3. 商船从吕贝克到诺夫哥罗德的典型旅程会是什么样子？
+4. 货币兑换和信贷系统在汉萨网络中是如何运作的？
+
+## 深度和格式
+- 技术水平：具有基本历史知识的知情外行
+- 结构：主题组织与背景信息
+- 支持元素：具体示例、历史轶事和时期准确的细节
+
+请提供技术上准确、最新且精确的信息，反映该领域的专业知识。
 ```
 
 ### 成功秘诀
@@ -296,6 +450,29 @@ As a specialist familiar with all these approaches, please compare:
 - Include: Strengths/weaknesses analysis and contextual suitability
 
 Please provide an objective, evidence-based comparison that highlights meaningful differences and appropriate applications.
+
+# 比较专业知识：{{competing_approaches}}
+
+## 知识领域
+我需要对{{field}}领域内的{{specific_approaches_or_theories}}进行专业比较。
+
+## 比较参数
+- 比较的关键方面：{{specific_elements_to_compare}}
+- 评估标准：{{how_to_evaluate_differences}}
+- 背景：{{relevant_context_for_comparison}}
+
+## 专家知识库
+作为熟悉所有这些方法的专家，请比较：
+1. {{approach_1}}：主要特点和应用
+2. {{approach_2}}：主要特点和应用
+3. {{approach_3}}：主要特点和应用（如果适用）
+
+## 信息结构
+- 比较框架：{{side_by_side_or_criteria_based}}
+- 详细程度：{{technical_depth}}
+- 包括：优势/劣势分析和情境适用性
+
+请提供一个客观、基于证据的比较，突出有意义的差异和适当的应用。
 ```
 
 #### 技术参考指南
@@ -319,6 +496,25 @@ As a technical specialist in {{domain}}, please create a reference covering:
 - Include: Definitions, diagrams, examples, and references as appropriate
 
 Please create a comprehensive technical reference that would be valuable to someone working with this technology or concept.
+
+# 技术参考：{{specific_technical_domain}}
+
+## 参考目的
+我需要一份关于{{specific_technical_topic}}的技术参考指南，用于{{intended_use}}。
+
+## 专家知识库
+作为{{domain}}领域的技术专家，请创建一个涵盖以下内容的参考资料：
+- 核心概念和术语
+- 关键流程和机制
+- 技术规格和参数
+- 关键考虑因素和最佳实践
+
+## 参考格式
+- 组织：{{organizational_structure}}
+- 技术水平：{{technical_depth}}
+- 包括：酌情提供定义、图表、示例和参考资料
+
+请创建一个全面的技术参考，对于使用该技术或概念的人员来说将是有价值的。
 ```
 
 ### 相关模板
@@ -364,6 +560,31 @@ I'm exploring {{topic_or_question}} and would benefit from multiple expert persp
 - Conclude with key takeaways that synthesize the different perspectives
 
 Please simulate this panel discussion in a way that fairly represents each viewpoint and helps me understand the full complexity of the topic.
+
+# 专家小组：{{topic_or_question}}
+
+## 小组讨论背景
+我正在探讨{{topic_or_question}}，希望听取多个专家的观点。请模拟一个由代表不同观点的专家组成的小组讨论。
+
+## 专家们
+1. {{expert_1_role}}，背景为{{expert_1_background}}
+2. {{expert_2_role}}，背景为{{expert_2_background}}
+3. {{expert_3_role}}，背景为{{expert_3_background}}
+4. {{additional_experts_as_needed}}
+
+## 讨论问题
+1. {{primary_question}}
+2. {{follow_up_question_1}}
+3. {{follow_up_question_2}}
+4. {{additional_questions_as_needed}}
+
+## 小组讨论形式
+- 每位专家应根据其背景提供独特的视角
+- 专家们应在提出自己见解的同时，尊重地承认其他观点
+- 包括共识和分歧的领域
+- 最后总结综合不同观点的关键要点
+
+请以公平代表每个观点的方式模拟这次小组讨论，帮助我理解该主题的全部复杂性。
 ```
 
 ### 如何自定义
@@ -405,6 +626,32 @@ I'm exploring how K-12 education might evolve over the next decade and would ben
 - Conclude with key takeaways that synthesize the different perspectives
 
 Please simulate this panel discussion in a way that fairly represents each viewpoint and helps me understand the full complexity of the topic.
+
+# 专家小组：K-12教育的未来
+
+## 小组讨论背景
+我正在探讨未来十年K-12教育可能如何演变，并希望听取多个专家的观点。请模拟一个由代表不同观点的专家组成的小组讨论。
+
+## 专家们
+1. 教育技术专家，背景为数字学习平台
+2. 儿童发展心理学家，背景为认知发展与学习
+3. 公立学校管理者，背景为教育政策与实施
+4. 进步教育改革者，背景为替代教育模式
+5. 教育公平研究员，背景为解决系统性不平等问题
+
+## 讨论问题
+1. 未来十年，技术将如何改变课堂体验？
+2. 传统教育的哪些方面应该保留，哪些方面应该重新构想？
+3. 教育系统如何更好地满足多样化的学习需求和公平挑战？
+4. 对于2030年毕业的学生来说，哪些技能和知识将是最重要的？
+
+## 小组讨论形式
+- 每位专家应根据其背景提供独特的视角
+- 专家们应在提出自己见解的同时，尊重地承认其他观点
+- 包括共识和分歧的领域
+- 最后总结综合不同观点的关键要点
+
+请以公平代表每个观点的方式模拟这次小组讨论，帮助我理解该主题的全部复杂性。
 ```
 
 #### 示例 2：医疗保健方法面板
@@ -434,6 +681,32 @@ I'm exploring different approaches to chronic pain management and would benefit 
 - Conclude with key takeaways that synthesize the different perspectives
 
 Please simulate this panel discussion in a way that fairly represents each viewpoint and helps me understand the full complexity of the topic.
+
+# 专家小组：慢性疼痛管理方法
+
+## 小组讨论背景
+我正在探讨慢性疼痛管理的不同方法，并希望听取多个专家的观点。请模拟一个由代表不同观点的专家组成的小组讨论。
+
+## 专家们
+1. 疼痛医学医师，背景为传统医学治疗
+2. 综合医学专家，背景为结合传统与替代方法
+3. 物理治疗师，背景为基于运动的干预
+4. 神经科学家，背景为疼痛处理和神经可塑性
+5. 患者倡导者，背景为亲身经历和支持社区
+
+## 讨论问题
+1. 根据当前证据，最有效的慢性疼痛管理方法是什么？
+2. 在进行物理干预的同时，应如何处理心理和社会因素？
+3. 基于药物的方法与其他方式相比，有哪些好处和局限性？
+4. 医疗保健系统如何更好地支持个性化、长期的疼痛管理？
+
+## 小组讨论形式
+- 每位专家应根据其背景提供独特的视角
+- 专家们应在提出自己见解的同时，尊重地承认其他观点
+- 包括共识和分歧的领域
+- 最后总结综合不同观点的关键要点
+
+请以公平代表每个观点的方式模拟这次小组讨论，帮助我理解该主题的全部复杂性。
 ```
 
 ### 成功秘诀
@@ -470,6 +743,27 @@ I want to understand the strongest arguments on multiple sides of {{controversia
 5. Closing statements
 
 Please present the strongest version of each position, avoid straw man arguments, and help me understand the nuanced reasoning behind each perspective.
+
+# 专家针锋相对：{{controversial_topic}}
+
+## 辩论背景
+我想了解关于{{controversial_topic}}多方最强有力的论点。请模拟一场由持相反观点的专家进行的尊重性辩论。
+
+## 专家们
+- 立场A：{{expert_1_role}}，认为{{position_summary_1}}
+- 立场B：{{expert_2_role}}，认为{{position_summary_2}}
+- 主持人：中立的协调员，确保公平的陈述
+
+## 辩论结构
+1. 开场陈述：每位专家的核心立场和关键支持证据
+2. 反驳：每位专家回应对方最强有力的观点
+3. 具体问题：
+   - {{specific_question_1}}
+   - {{specific_question_2}}
+4. 潜在的共同点领域
+5. 结束陈述
+
+请呈现每个立场的最强版本，避免稻草人谬误，并帮助我理解每个观点背后的细微推理。
 ```
 
 #### 跨学科问题解决小组
@@ -495,6 +789,27 @@ Please present the strongest version of each position, avoid straw man arguments
 5. Implementation considerations across disciplines
 
 Please demonstrate how different fields can contribute complementary insights to address this complex problem effectively.
+
+# 跨学科专家小组：{{complex_problem}}
+
+## 问题背景
+{{complex_problem_description}}需要来自多个学科的见解。请模拟一个跨学科小组来应对这一挑战。
+
+## 专家们
+1. {{discipline_1}}专家，专注于{{aspect_1}}
+2. {{discipline_2}}专家，专注于{{aspect_2}}
+3. {{discipline_3}}专家，专注于{{aspect_3}}
+4. {{discipline_4}}专家，专注于{{aspect_4}}
+5. 整合专家，负责连接跨学科的见解
+
+## 协作框架
+1. 从每个学科角度定义问题
+2. 来自每个学科的关键见解
+3. 跨学科的联系和协同作用
+4. 利用多种观点的综合方法
+5. 跨学科的实施考虑
+
+请展示不同领域如何能够贡献互补的见解，以有效解决这个复杂问题。
 ```
 
 ### 相关模板
@@ -538,6 +853,29 @@ Please explain {{specific_concept_or_process}} in a way that:
 - Analogies: {{useful_comparison_domains}}
 
 Please create an explanation that would help someone like me genuinely understand this topic, not just memorize facts about it.
+
+# 专家讲解：{{topic_to_explain}}
+
+## 学习背景
+我想理解{{topic_to_explain}}，但觉得很有挑战性，因为{{specific_difficulties}}。我目前的知识水平是{{your_background_knowledge}}。
+
+## 教师简介
+您是一位杰出的教师，在{{subject_area}}领域拥有专业知识，并有将复杂概念变得易于理解的天赋。您擅长{{teaching_strength}}，并了解关于这个主题的常见误解。
+
+## 讲解请求
+请用以下方式解释{{specific_concept_or_process}}：
+- 建立在我现有知识的基础上
+- 解决常见的困惑点
+- 使用具体的例子和类比
+- 从基础到更深入的理解逐步推进
+
+## 学习偏好
+- 学习风格：{{your_preferred_learning_approach}}
+- 示例：{{types_of_examples_that_would_help}}
+- 详细程度：{{desired_depth}}
+- 类比：{{useful_comparison_domains}}
+
+请创建一个能帮助像我这样的人真正理解这个主题的解释，而不仅仅是记住关于它的事实。
 ```
 
 ### 如何自定义
@@ -578,6 +916,29 @@ Please explain what statistical significance really means and how p-values work 
 - Analogies: Compare to decision-making processes I might be familiar with
 
 Please create an explanation that would help someone like me genuinely understand this topic, not just memorize facts about it.
+
+# 专家讲解：统计显著性
+
+## 学习背景
+我想理解统计显著性，但觉得很有挑战性，因为数学概念和概率论对我来说很难直观地掌握。我目前的知识水平是基础高中数学，没有接受过正式的统计学教育。
+
+## 教师简介
+您是一位杰出的教师，在统计学和数据科学领域拥有专业知识，并有将复杂概念变得易于理解的天赋。您擅长使用现实世界的例子和可视化，并了解关于这个主题的常见误解。
+
+## 讲解请求
+请用以下方式解释统计显著性的真正含义以及p值是如何工作的：
+- 建立在我现有知识的基础上
+- 解决常见的困惑点
+- 使用具体的例子和类比
+- 从基础到更深入的理解逐步推进
+
+## 学习偏好
+- 学习风格：视觉化解释和现实世界场景
+- 示例：统计显著性会产生影响的日常情境
+- 详细程度：先有概念性理解，然后逐步引入必要的数学知识
+- 类比：与我可能熟悉的决策过程进行比较
+
+请创建一个能帮助像我这样的人真正理解这个主题的解释，而不仅仅是记住关于它的事实。
 ```
 
 #### 示例 2：理解文学概念
@@ -604,6 +965,29 @@ Please explain what magical realism is, how it differs from fantasy, and how aut
 - Analogies: Compare to film techniques or storytelling approaches I might recognize
 
 Please create an explanation that would help someone like me genuinely understand this topic, not just memorize facts about it.
+
+# 专家讲解：文学中的魔幻现实主义
+
+## 学习背景
+我想理解文学中的魔幻现实主义，但觉得很有挑战性，因为它似乎模糊了不同体裁之间的界限，我也不确定如何识别它。我目前的知识水平是喜欢小说的普通读者，但没有接受过正式的文学教育。
+
+## 教师简介
+您是一位杰出的教师，在文学分析和世界文学领域拥有专业知识，并有将复杂概念变得易于理解的天赋。您擅长将文学技巧与其文化背景联系起来，并了解关于这个主题的常见误解。
+
+## 讲解请求
+请用以下方式解释什么是魔幻现实主义，它与奇幻文学有何不同，以及作者如何使用它来传达意义：
+- 建立在我现有知识的基础上
+- 解决常见的困惑点
+- 使用具体的例子和类比
+- 从基础到更深入的理解逐步推进
+
+## 学习偏好
+- 学习风格：分析具体段落和比较不同作品
+- 示例：清晰展示魔幻现实主义的著名书籍
+- 详细程度：足够全面，能帮助我在阅读时识别和欣赏它
+- 类比：与我可能认识的电影技巧或讲故事的方法进行比较
+
+请创建一个能帮助像我这样的人真正理解这个主题的解释，而不仅仅是记住关于它的事实。
 ```
 
 ### 成功秘诀
@@ -635,6 +1019,22 @@ You are a teacher who excels at distilling complex ideas to their essential comp
 5. Common misconception corrected
 
 Please focus on practical understanding rather than theoretical depth, using accessible language while maintaining accuracy.
+
+# 快速概念分解：{{complex_concept}}
+
+## 学习需求
+我需要为{{specific_purpose}}快速理解{{complex_concept}}的要点。我有{{relevant_background}}背景。
+
+## 教师方法
+您是一位擅长将复杂思想提炼为其基本组成部分的教师。请将此概念分解为：
+
+1. 用简单的术语定义核心概念
+2. 关键组成部分或原则（不超过5个）
+3. 一个具体、相关的例子
+4. 它通常如何应用
+5. 纠正一个常见的误解
+
+请侧重于实际理解而非理论深度，使用通俗易懂的语言同时保持准确性。
 ```
 
 #### 深度学习之旅
@@ -664,6 +1064,31 @@ For each stage, please include:
 - Common obstacles and how to overcome them
 
 Please design this as a learning journey that builds systematically while maintaining engagement and practical relevance.
+
+# 学习之旅：{{complex_subject}}
+
+## 学习目标
+我想随着时间的推移，对{{complex_subject}}有深入的了解。我从{{current_knowledge_level}}开始，希望达到{{desired_expertise_level}}。
+
+## 教师简介
+您是一位导师，能够创建个性化的学习旅程，将复杂的主题分解为可管理的阶段，同时保持概念之间的联系。
+
+## 学习结构
+请创建一个渐进式的学习路径，包括：
+
+1. 基础：基本概念和先决条件
+2. 核心原则：基本框架和方法
+3. 应用：这些原则在实践中如何运作
+4. 高级概念：更深层次的细微差别和复杂性
+5. 整合：所有内容如何作为一个连贯的整体联系起来
+
+对于每个阶段，请包括：
+- 需要掌握的关键概念
+- 推荐的学习方法
+- 如何验证理解
+- 常见的障碍以及如何克服它们
+
+请设计一个能够系统地构建知识，同时保持参与度和实践相关性的学习之旅。
 ```
 
 ### 相关模板
@@ -702,6 +1127,28 @@ I'm working with {{specific_technology/system}} in the context of {{project_or_a
 - Implementation considerations: {{specific_constraints_or_requirements}}
 
 Please provide technically sound advice that would be appropriate for my background level while being comprehensive enough to solve the problem effectively.
+
+# 技术专家咨询：{{technology_area}}
+
+## 技术背景
+我正在{{project_or_application_context}}的背景下使用{{specific_technology/system}}。我的技术背景包括{{relevant_skills_or_technologies}}方面的知识。
+
+## 技术状况
+{{detailed_description_of_technical_situation_or_problem}}
+
+## 技术问题
+1. {{specific_technical_question_1}}
+2. {{specific_technical_question_2}}
+3. {{additional_questions_as_needed}}
+
+## 响应需求
+- 技术深度：{{technical_detail_level}}
+- 代码示例：{{yes_no_and_language_if_yes}}
+- 替代方案：如果合适，请建议多种方法
+- 权衡：请解释不同解决方案的优缺点
+- 实施考虑：{{specific_constraints_or_requirements}}
+
+请提供技术上合理的建议，该建议应适合我的背景水平，同时足够全面以有效解决问题。
 ```
 
 ### 医疗信息专家
@@ -727,6 +1174,27 @@ I'm seeking evidence-based information about {{medical_topic}} for {{educational
 - Clarity: Please explain medical terminology
 
 Please provide medically accurate information based on current scientific understanding, with appropriate context and explanations suitable for my background.
+
+# 医疗信息咨询
+
+## 信息背景
+我正在为{{educational_purpose}}寻求关于{{medical_topic}}的循证信息。这仅供参考，不能替代专业的医疗建议。
+
+## 主题背景
+{{specific_aspects_of_medical_topic}}及其与{{relevant_context}}的关系。
+
+## 信息需求
+1. {{specific_medical_information_question_1}}
+2. {{specific_medical_information_question_2}}
+3. {{additional_questions_as_needed}}
+
+## 响应参数
+- 证据水平：请引用当前的医学理解
+- 详细程度：{{layperson_to_medical_professional}}
+- 背景：包括相关因素、局限性和考虑事项
+- 清晰度：请解释医学术语
+
+请根据当前的科学理解提供医学上准确的信息，并提供适合我背景的适当背景和解释。
 ```
 
 ### 理财指导专家
@@ -752,6 +1220,27 @@ I'm seeking general information about {{financial_topic}} for educational purpos
 - Educational focus: Focus on helping me understand concepts, not specific recommendations
 
 Please provide financially sound educational information with appropriate context and explanations suitable for my learning goals.
+
+# 财务信息咨询
+
+## 财务背景
+我正在为教育目的寻求关于{{financial_topic}}的一般信息。这仅供参考，不能替代专业的财务建议。
+
+## 情况概述
+{{your_financial_education_goal}}及其与{{relevant_context}}的关系。
+
+## 信息需求
+1. {{specific_financial_information_question_1}}
+2. {{specific_financial_information_question_2}}
+3. {{additional_questions_as_needed}}
+
+## 响应参数
+- 证据基础：请参考一般财务原则
+- 详细程度：{{basic_to_sophisticated}}
+- 背景：包括相关的考虑因素和局限性
+- 教育重点：专注于帮助我理解概念，而不是具体的建议
+
+请提供财务上合理的教育信息，并提供适合我学习目标的适当背景和解释。
 ```
 
 ### 法律信息专家
@@ -777,6 +1266,27 @@ I'm seeking general information about {{legal_topic}} for educational purposes. 
 - Educational focus: Focus on helping me understand concepts, not specific recommendations
 
 Please provide legally sound educational information with appropriate context and explanations suitable for my learning goals.
+
+# 法律信息咨询
+
+## 信息背景
+我正在为教育目的寻求关于{{legal_topic}}的一般信息。这仅供参考，不能替代专业的法律建议。
+
+## 主题背景
+{{specific_aspects_of_legal_topic}}及其与{{relevant_context}}的关系。
+
+## 信息需求
+1. {{specific_legal_information_question_1}}
+2. {{specific_legal_information_question_2}}
+3. {{additional_questions_as_needed}}
+
+## 响应参数
+- 证据基础：请参考一般法律原则和普遍理解
+- 详细程度：{{general_overview_to_detailed_explanation}}
+- 管辖区说明：如果存在重大的管辖区差异，请提及
+- 教育重点：专注于帮助我理解概念，而不是具体的建议
+
+请提供法律上合理的教育信息，并提供适合我学习目标的适当背景和解释。
 ```
 
 ### 创意专家
@@ -803,6 +1313,28 @@ I'm working on {{creative_project}} in the field of {{creative_field}}. My exper
 - Development: How to take this to the next level
 
 Please provide creative guidance that combines practical techniques with inspirational direction, appropriate for my experience level and project needs.
+
+# 创意专家咨询：{{creative_field}}
+
+## 创意背景
+我正在{{creative_field}}领域从事{{creative_project}}。我的经验水平是{{your_creative_background}}。
+
+## 项目详情
+{{detailed_description_of_creative_project_or_challenge}}
+
+## 创意问题
+1. {{specific_creative_question_1}}
+2. {{specific_creative_question_2}}
+3. {{additional_questions_as_needed}}
+
+## 响应需求
+- 方法：{{practical_advice_or_conceptual_guidance}}
+- 示例：请包括相关示例或参考
+- 技巧：可能有所帮助的具体方法或技巧
+- 视角：可能扩展我思维的创意见解
+- 发展：如何将其提升到新的水平
+
+请提供结合了实用技巧和鼓舞人心的方向的创意指导，适合我的经验水平和项目需求。
 ```
 
 ### 商业战略专家
@@ -829,6 +1361,28 @@ I'm working on {{business_challenge}} for {{company_type}} in the {{industry}} i
 - Metrics: How to measure success
 
 Please provide business strategy guidance that is practical, market-aware, and includes both strategic direction and implementation considerations.
+
+# 商业战略咨询
+
+## 商业背景
+我正在为{{industry}}行业的{{company_type}}公司处理{{business_challenge}}。该公司目前处于{{relevant_business_situation}}。
+
+## 战略状况
+{{detailed_description_of_business_situation_or_challenge}}
+
+## 战略问题
+1. {{specific_strategy_question_1}}
+2. {{specific_strategy_question_2}}
+3. {{additional_questions_as_needed}}
+
+## 响应需求
+- 战略层面：{{tactical_to_long_term}}
+- 市场视角：包括相关的市场考虑
+- 方法：多种潜在战略及其优缺点
+- 实施：执行的实际考虑
+- 指标：如何衡量成功
+
+请提供实用、具有市场意识并包括战略方向和实施考虑的商业战略指导。
 ```
 
 ### 研究方法专家
@@ -855,6 +1409,28 @@ I'm conducting research on {{research_topic}} with the goal of {{research_purpos
 - Limitations: Important limitations to acknowledge
 
 Please provide methodologically sound research guidance that is rigorous yet practical for my experience level and research goals.
+
+# 研究方法咨询
+
+## 研究背景
+我正在就{{research_topic}}进行研究，目标是{{research_purpose}}。我的研究方法背景是{{research_experience_level}}。
+
+## 研究状况
+{{detailed_description_of_research_project_or_challenge}}
+
+## 方法论问题
+1. {{specific_methodology_question_1}}
+2. {{specific_methodology_question_2}}
+3. {{additional_questions_as_needed}}
+
+## 响应需求
+- 方法论方法：推荐适当的方法
+- 设计考虑：研究设计的关键因素
+- 有效性问题：潜在威胁以及如何应对
+- 分析技术：适当的分析方法
+- 局限性：需要承认的重要局限性
+
+请提供方法论上合理的研究指导，该指导既严谨又适合我的经验水平和研究目标。
 ```
 
 ### UX/设计专家
@@ -881,6 +1457,28 @@ I'm working on {{design_project}} for {{target_audience}} with the goal of {{des
 - Evaluation: How to test or evaluate the design
 
 Please provide design guidance that balances aesthetic considerations with user needs and practical implementation, appropriate for my experience level.
+
+# UX/设计专家咨询
+
+## 设计背景
+我正在为{{target_audience}}设计{{design_project}}，目标是{{design_purpose}}。我的设计背景是{{design_experience_level}}。
+
+## 项目详情
+{{detailed_description_of_design_project_or_challenge}}
+
+## 设计问题
+1. {{specific_design_question_1}}
+2. {{specific_design_question_2}}
+3. {{additional_questions_as_needed}}
+
+## 响应需求
+- 设计原则：与此挑战相关的原则
+- 用户视角：从用户的角度看问题
+- 流程指导：方法建议
+- 示例：类似成功的设计或方法
+- 评估：如何测试或评估设计
+
+请提供平衡美学考虑、用户需求和实际实施的设计指导，并适合我的经验水平。
 ```
 
 ### 教学专家
@@ -907,6 +1505,28 @@ I'm developing {{educational_content}} for {{learner_group}} with the goal of {{
 - Resources: Types of materials or activities to consider
 
 Please provide educational guidance that is evidence-based, learner-centered, and practical for implementation in my specific context.
+
+# 教学/教育专家咨询
+
+## 教育背景
+我正在为{{learner_group}}开发{{educational_content}}，目标是{{learning_objectives}}。我的教学/教育背景是{{educational_experience_level}}。
+
+## 项目详情
+{{detailed_description_of_educational_project_or_challenge}}
+
+## 教学法问题
+1. {{specific_educational_question_1}}
+2. {{specific_educational_question_2}}
+3. {{additional_questions_as_needed}}
+
+## 响应需求
+- 学习原则：相关的教育方法
+- 参与策略：如何保持兴趣和动力
+- 评估想法：检查理解的方法
+- 差异化：满足多样化的学习需求
+- 资源：可以考虑的材料或活动类型
+
+请提供基于证据、以学习者为中心且在我的特定情境中实用的教育指导。
 ```
 
 ## 如何选择合适的专家模板
@@ -972,6 +1592,28 @@ You are an experienced {{primary_expert_role}} with these additional perspective
 - Synthesis: Conclude with integrated insights from all perspectives
 
 Please provide comprehensive expert guidance that incorporates these different viewpoints, highlighting both consensus and meaningful differences.
+
+# 具有多视角的专家咨询：{{topic}}
+
+## 专家简介
+您是一位经验丰富的{{primary_expert_role}}，并具备以下额外视角：
+- {{perspective_1}}背景，了解{{specific_area_1}}
+- {{perspective_2}}背景，了解{{specific_area_2}}
+- {{perspective_3}}背景，了解{{specific_area_3}}
+
+## 我的问题/请求
+{{your_specific_question_or_request}}
+
+## 补充背景
+{{any_relevant_background_information}}
+
+## 我期望的内容
+- 详细程度：{{how_detailed_you_want_the_response}}
+- 重点领域：{{specific_aspects_to_focus_on}}
+- 多种视角：请从上述每个视角进行阐述
+- 综合：最后总结所有观点的综合见解
+
+请提供全面的专家指导，融合这些不同的观点，并突出共识和有意义的差异。
 ```
 
 ### 专家教学 + 专业知识
@@ -998,6 +1640,29 @@ Please explain {{specific_concept_or_process}} in a way that:
 - Technical details: {{specific_technical_elements_to_include}}
 
 Please create an explanation that builds from accessible foundations to technical precision while remaining engaging and clear throughout.
+
+# 具有技术深度的专家教学：{{topic}}
+
+## 学习背景
+我想从概念和技术上理解{{topic}}。我目前的知识水平是{{your_background_knowledge}}。
+
+## 专家简介
+您既是一位能将复杂概念变得易于理解的杰出教师，又是一位在{{topic}}方面拥有深厚专业知识的技术专家。
+
+## 学习请求
+请用以下方式解释{{specific_concept_or_process}}：
+1. 从直观的理解和清晰的例子开始
+2. 逐步深入到更多的技术细节和精度
+3. 包括实际应用和理论基础
+4. 在基础和高级层面解决常见的误解
+
+## 学习与技术参数
+- 概念方法：{{preferred_learning_approach}}
+- 技术深度：{{technical_level_desired}}
+- 示例：{{types_of_examples_that_would_help}}
+- 技术细节：{{specific_technical_elements_to_include}}
+
+请创建一个从易于理解的基础到技术精确的解释，并在整个过程中保持引人入胜和清晰。
 ```
 
 ## 高级 Expert 模板自定义
@@ -1025,6 +1690,27 @@ You are a knowledgeable historian specializing in {{time_period}} ({{year_range}
 - Scholarly perspectives: Different interpretations where relevant
 
 Please provide historically informed guidance that avoids presentism while making this historical period and its implications accessible.
+
+# 历史专家咨询：{{time_period}}
+
+## 专家简介
+您是一位知识渊博的历史学家，专门研究{{time_period}}（{{year_range}}），在{{specific_historical_focus}}方面具有特别的专业知识。您的理解反映了这一时期的历史背景、可用资料和学术解释。
+
+## 历史探究
+{{your_specific_historical_question}}
+
+
+
+## 补充背景
+{{why_you're_asking_and_any_background}}
+
+## 我期望的内容
+- 历史准确性：反映当前的学术理解
+- 时期背景：这一时期的重要背景因素
+- 资料考虑：其所依据的证据类型
+- 学术观点：在相关情况下提供不同的解释
+
+请提供历史知识渊博的指导，避免厚今薄古，同时使这一历史时期及其影响易于理解。
 ```
 
 ### 专业技术专家
@@ -1050,6 +1736,27 @@ My technical background: {{your_technical_knowledge_level}}
 - Code or formulas: {{whether_you_want_technical_notation}}
 
 Please provide technically rigorous guidance suitable for my background level, balancing theoretical correctness with practical implementation considerations.
+
+# 技术专家咨询：{{technical_domain}}
+
+## 专家简介
+您是一位在{{technical_domain}}，特别是{{specific_technical_area}}方面拥有深厚技术专长的专家。您拥有{{relevant_applications}}的实践经验，并理解理论基础和实施挑战。
+
+## 技术背景
+{{your_technical_situation_or_question}}
+我的技术背景：{{your_technical_knowledge_level}}
+
+## 技术要求
+{{specific_technical_parameters_or_constraints}}
+
+## 我期望的内容
+- 技术准确性：精确、最新的技术信息
+- 深度：{{appropriate_technical_depth}}
+- 实施重点：实际应用的考量
+- 权衡：不同方法的技术优势和局限性
+- 代码或公式：{{whether_you_want_technical_notation}}
+
+请提供适合我背景水平的技术严谨指导，平衡理论正确性与实际实施考虑。
 ```
 
 ---

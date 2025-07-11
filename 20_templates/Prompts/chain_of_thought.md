@@ -28,6 +28,19 @@ Think through this step-by-step:
 
 ## Expected Output
 Provide your complete reasoning process and then your final answer.
+
+# 任务：{{task_description}}
+
+## 方法
+逐步思考：
+
+1. {{first_reasoning_step}}
+2. {{second_reasoning_step}}
+3. {{additional_steps_as_needed}}
+4. 基于此推理得出结论。
+
+## 预期输出
+提供完整的推理过程，然后给出最终答案。
 ```
 
 ## 参数
@@ -56,6 +69,21 @@ Think through this step-by-step:
 
 ## Expected Output
 Provide your complete reasoning process and then your final answer.
+
+# 任务：解决以下文字问题
+
+一家商店笔记本每本4美元，钢笔每支2美元。Emma买了一些笔记本和两倍数量的钢笔。如果她总共花了24美元，她买了多少本笔记本？
+
+## 方法
+逐步思考：
+
+1. 为我们要寻找的内容定义变量
+2. 根据给定信息建立方程
+3. 解方程求未知值
+4. 验证答案是否符合原始条件
+
+## 预期输出
+提供完整的推理过程，然后给出最终答案。
 ```
 
 ### 示例 2：道德决策分析
@@ -77,6 +105,23 @@ Think through this step-by-step:
 
 ## Expected Output
 Provide your complete reasoning process and then your final recommendation.
+
+# 任务：分析以下情景的道德影响
+
+一家制药公司开发了一种治疗罕见疾病的药物。临床试验显示70%的疗效，但也显示15%的患者可能出现严重副作用。公司需要决定是否将这种药物推向市场。
+
+## 方法
+逐步思考：
+
+1. 识别此情景中的关键利益相关者
+2. 分析使药物可用的潜在益处
+3. 考虑涉及的潜在危害和风险
+4. 评估可能的替代选择
+5. 平衡相互竞争的道德原则（善行、不伤害、自主性、公正）
+6. 制定带有潜在保障或条件的细致建议
+
+## 预期输出
+提供完整的推理过程，然后给出最终建议。
 ```
 
 ## 变化
@@ -95,6 +140,17 @@ Provide your complete reasoning process and then your final recommendation.
 
 ## Expected Output
 Step-by-step reasoning followed by conclusion.
+
+# 任务：{{task_description}}
+
+## 方法
+- 首先，将此问题分解为逻辑步骤
+- 系统地处理每个步骤
+- 展示完整的推理过程
+- 然后提供最终答案
+
+## 预期输出
+逐步推理后得出结论。
 ```
 
 ### 引导式问题分解
@@ -116,6 +172,22 @@ Step-by-step reasoning followed by conclusion.
 
 ## Expected Output
 Analysis of each sub-problem, integration of insights, and final conclusion.
+
+# 任务：{{task_description}}
+
+## 问题分解
+1. 子问题1：{{sub_problem_description}}
+   - 考虑：{{relevant_factor_1}}
+   - 考虑：{{relevant_factor_2}}
+
+2. 子问题2：{{sub_problem_description}}
+   - 考虑：{{relevant_factor_1}}
+   - 考虑：{{relevant_factor_2}}
+
+3. 整合：结合来自子问题的分析
+
+## 预期输出
+对每个子问题的分析、见解整合和最终结论。
 ```
 
 ### 情景分析思路链
@@ -141,6 +213,26 @@ Think through this step-by-step:
 
 ## Expected Output
 Analysis of each scenario and reasoned recommendation.
+
+# 任务：{{decision_task}}
+
+## 方法
+逐步思考：
+
+1. 情景A：如果{{condition_A}}发生
+   - 可能的结果：
+   - 益处：
+   - 风险：
+
+2. 情景B：如果{{condition_B}}发生
+   - 可能的结果：
+   - 益处：
+   - 风险：
+
+3. 比较情景并确定最稳健的方法
+
+## 预期输出
+对每个情景的分析和合理建议。
 ```
 
 ## 最佳实践

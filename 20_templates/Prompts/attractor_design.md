@@ -87,6 +87,35 @@ Consider the above concepts in your analysis, incorporating them as appropriate 
 
 ## Expected Output
 A comprehensive analysis of urban transportation challenges that identifies key issues, explores underlying dynamics, and suggests potential approaches. Include both short-term and long-term perspectives.
+
+# 任务：分析不断增长的城市中城市交通面临的挑战
+
+## 背景
+全球城市地区正在经历人口增长，给现有交通基础设施带来压力。许多城市正在寻求解决交通问题的方案。
+
+## 概念框架
+*以下概念可能与考虑相关：*
+
+相互关联性：
+- 交通与土地利用的关系
+- 交通选择对环境系统的影响
+- 交通与经济机会的联系
+
+反馈循环：
+- 基础设施投资如何塑造发展模式
+- 拥堵与行为适应的关系
+- 影响未来交通选择的环境影响
+
+涌现：
+- 个人交通决策产生的模式
+- 交通政策的意外后果
+- 城市交通的自组织方面
+
+## 方法
+在您的分析中考虑上述概念，根据任务适当地整合它们。
+
+## 预期输出
+对城市交通挑战的全面分析，识别关键问题，探索潜在动态，并提出潜在方法。包括短期和长期视角。
 ```
 
 ### 示例 2：创意创新吸引器
@@ -120,6 +149,35 @@ Consider the above concepts in your analysis, incorporating them as appropriate 
 
 ## Expected Output
 A list of 5-7 innovative product improvement ideas, each with a brief description, potential user benefit, and implementation considerations. Focus on distinctive ideas rather than obvious incremental improvements.
+
+# 任务：为智能家庭温控器建议产品改进想法
+
+## 背景
+智能温控器在家庭中变得越来越普遍，允许温度编程、远程控制和一些学习能力。该公司正在寻求开发下一代产品。
+
+## 概念框架
+*以下概念可能与考虑相关：*
+
+边界突破：
+- 将功能扩展到传统温度控制之外
+- 与意想不到的系统或服务集成
+- 挑战对温控器应该是什么的假设
+
+重组：
+- 合并来自不同产品类别的功能
+- 现有技术的新颖组合
+- 熟悉能力的意想不到的应用
+
+以用户为中心的惊喜：
+- 预测用户不知道自己拥有的需求的功能
+- 超出期望的愉悦互动
+- 变革性体验而不是增量改进
+
+## 方法
+在您的分析中考虑上述概念，根据任务适当地整合它们。
+
+## 预期输出
+5-7个创新产品改进想法的清单，每个都有简短描述、潜在用户受益和实施考虑。专注于独特的想法而不是明显的增量改进。
 ```
 
 ## 变化
